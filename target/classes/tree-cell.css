@@ -1,0 +1,12 @@
+#treeView .tree-cell:selected {
+    -fx-background-color: #88b3f5;
+    -fx-text-fill: #ffffff ;
+}
+
+#treeView .tree-cell.changed:selected {
+    -fx-text-fill: #fffb99;
+}
+
+#treeView .tree-cell.changed {
+    -fx-text-fill: #be3d00;
+}
